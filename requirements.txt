@@ -13,3 +13,5 @@ google-generativeai
 st-execbox
 plotly
 db-dtypes
+langchain-community
+langchain-google-vertexai
