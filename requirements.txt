@@ -11,3 +11,4 @@ google.cloud
 numpy
 google-generativeai
 st-execbox
+plotly

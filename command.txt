@@ -7,7 +7,7 @@ pip install -r requirements.txt
 export GCP_PROJECT='<GCP PROJECT ID>'
 export GCP_REGION='<YOUR LOCATION>'
 
-streamlit run app.py \
+streamlit run About.py \
   --browser.serverAddress=localhost \
   --server.enableCORS=false \
   --server.enableXsrfProtection=false \
