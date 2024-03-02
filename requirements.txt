@@ -1,0 +1,13 @@
+streamlit
+google-cloud-aiplatform
+google-cloud-storage
+imports
+vertexai
+langchain
+dataclasses
+google-cloud-aiplatform
+google-cloud-storage
+google.cloud
+numpy
+google-generativeai
+st-execbox

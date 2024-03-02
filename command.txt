@@ -1,0 +1,21 @@
+git clone <REPO>
+
+python3 -m venv <ENV NAME>
+source <ENV NAME>/bin/activate
+pip install -r requirements.txt
+
+export GCP_PROJECT='<GCP PROJECT ID>'
+export GCP_REGION='<YOUR LOCATION>'
+
+streamlit run app.py \
+  --browser.serverAddress=localhost \
+  --server.enableCORS=false \
+  --server.enableXsrfProtection=false \
+  --server.port 8080
+  
+  
+  
+deactiavte - to deactivate venv  
+  
+To kill all the port
+pkill -u <user name>
