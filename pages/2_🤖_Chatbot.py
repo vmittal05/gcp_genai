@@ -66,7 +66,7 @@ MESSAGES = "messages"
 
 def initialize_session_state():
     if MESSAGES not in st.session_state:
-        st.session_state[MESSAGES] = [Message(actor=ASSISTANT, payload="I'm the ScheduleCraft Beautiful Homes Services chatbot, here to help with everything from decor dilemmas to event planning and, of course, all things ScheduleCraft!  What can I help you with today?")]
+        st.session_state[MESSAGES] = [Message(actor=ASSISTANT, payload="I'm the ScheduleCraft home decor and design service chatbot, here to help with everything from decor dilemmas to event planning and, of course, all things ScheduleCraft!  What can I help you with today?")]
     if "llm_chain" not in st.session_state:
         st.session_state["llm_chain"] = get_llm_chain()
     
