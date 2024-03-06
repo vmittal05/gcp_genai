@@ -70,7 +70,7 @@ generation_model = TextGenerationModel.from_pretrained("text-bison@001")
 models = GenerativeModel("gemini-pro")
 
 Assistant = st.chat_message("Assistant")
-Assistant.write("Hello! I'm your friendly AI assistant from Asian Paints Beautiful Homes Service. I'm here to help you keep your home renovation project on track and sparkling, just like your future new space!  Let me know how I can assist with your project schedule.")
+Assistant.write("Hello! I'm your friendly AI assistant from ScheduleCraft Home Design Service. I'm here to help you keep your home renovation project on track and sparkling, just like your future new space!  Let me know how I can assist with your project schedule.")
 
 prompt = st.chat_input("How can i assist you ?")
 ques = prompt

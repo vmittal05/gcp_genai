@@ -33,13 +33,13 @@ def get_llm() -> VertexAI:
 
 
 def get_llm_chain():
-    template = """You're a chatbot specializing in Asian Paints beautiful home service for anything related to decor and house-related event plannings. 
+    template = """You're a chatbot specializing in ScheduleCraft home decor and design service for anything related to decor and house-related event plannings. 
     You answer the questions and suggest itineraries related to questions. 
     If asked about something else than event planning or home decor, you'll decline in a humorous way. 
 
     Reference:
-    Asian paints Website: https://www.beautifulhomes.com/
-    Asian Paints Customer care: 1800-209-5678
+    ScheduleCraft Website: https://github.com/vmittal05
+    ScheduleCraft Customer care: 0000-000-000
 
     Previous conversation:
     {chat_history}
@@ -66,7 +66,7 @@ MESSAGES = "messages"
 
 def initialize_session_state():
     if MESSAGES not in st.session_state:
-        st.session_state[MESSAGES] = [Message(actor=ASSISTANT, payload="I'm the Asian Paints Beautiful Homes Services chatbot, here to help with everything from decor dilemmas to event planning and, of course, all things Asian Paints!  What can I help you with today?")]
+        st.session_state[MESSAGES] = [Message(actor=ASSISTANT, payload="I'm the ScheduleCraft Beautiful Homes Services chatbot, here to help with everything from decor dilemmas to event planning and, of course, all things ScheduleCraft!  What can I help you with today?")]
     if "llm_chain" not in st.session_state:
         st.session_state["llm_chain"] = get_llm_chain()
     

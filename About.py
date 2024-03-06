@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Asian Paints" ,
+    page_title="ScheduleCraft" ,
     page_icon="👨‍🎨",
 )
 
@@ -12,9 +12,9 @@ with cent_co:
 st.divider()
 
 st.markdown('''
-            Welcome to Beautiful Homes - Your ultimate destination for top-notch interior design services. Our panel of experienced interior designers specializes in crafting stunning and functional spaces for bedrooms, bathrooms, kitchens, and living rooms. We believe that your home's interior design should be a true reflection of your personality and style. With our personalized service, you can expect tailor-made designs that suit your preferences. From conceptualization to execution, we provide end-to-end services, ensuring a seamless experience for you.
+            Welcome to your dream home - Your ultimate destination for top-notch interior design services. Our panel of experienced interior designers specializes in crafting stunning and functional spaces for bedrooms, bathrooms, kitchens, and living rooms. We believe that your home's interior design should be a true reflection of your personality and style. With our personalized service, you can expect tailor-made designs that suit your preferences. From conceptualization to execution, we provide end-to-end services, ensuring a seamless experience for you.
             
-            Here are some of the things that Asian Paints offers:
+            Here are some of the things that ScheduleCraft offers:
            
             • **Paints and coatings**: We offer a wide range of paints and coatings for both interior and exterior use. Our paints are available in a variety of colors and finishes, so you can find the perfect look for your home.
             
@@ -25,5 +25,5 @@ st.markdown('''
             • **Accessories**: We offer a wide range of accessories to help you complete the look of your home. Our accessories include everything from curtains and blinds to rugs and cushions.
             
             
-            If you are looking for a way to create your dream home, Asian Paints is the perfect choice. We offer a wide range of products and services to help you make your house a beautiful home.
+            If you are looking for a way to create your dream home, ScheduleCraft is the perfect choice. We offer a wide range of products and services to help you make your house a beautiful home.
             ''')
