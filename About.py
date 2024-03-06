@@ -9,8 +9,7 @@ left_co, cent_co,last_co = st.columns(3)
 with cent_co:
     st.image('logo-color.png')
 
-
-st.header("",divider='rainbow')
+st.divider()
 
 st.markdown('''
             Welcome to Beautiful Homes - Your ultimate destination for top-notch interior design services. Our panel of experienced interior designers specializes in crafting stunning and functional spaces for bedrooms, bathrooms, kitchens, and living rooms. We believe that your home's interior design should be a true reflection of your personality and style. With our personalized service, you can expect tailor-made designs that suit your preferences. From conceptualization to execution, we provide end-to-end services, ensuring a seamless experience for you.
